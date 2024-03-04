@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms: </title>
+    <style>
+        body{
+            background-color: #414141;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1> Forms in HTML: </h1>
+    <form action ="url" method="get">
+        <label for="fname">First Name</label></form><br/>
+        <input type="Text" placeholder="First Name" name="" value="ROHAN DEV" id="fname"><br/>
+        <input type="week" name="" id=""><br/>
+        <select name="editors" id="">
+            <option value="VS CODE">VS CODE</option>
+            <option value="SUBLIME TEXT">SUBLIME TEXT</option>
+            <option value="NOTEPAD++">NOTEPAD++</option>
+
+        </select>
+
+        <input list="EDITORS" name="EDITORS">
+        <datalist id="EDITORS">
+            
+            <option value ="VS CODE">VS CODE</option>
+            <option value ="SUBLIME TEXT">SUBLIME TEXT</option>
+            <option value ="NOTEPAD++">NOTEPAD++</option>
+        </datalist>
+
+        <input list="browsers" id="myBrowser" name="myBrowser" />
+        <datalist id="browsers">
+            <option value="Chrome"></option>
+            <option value="Firefox"></option>
+            <option value="Opera"></option>
+            <option value="Safari"></option>
+            <option value="Microsoft Edge"></option>
+        </datalist>
+
+        <input type="reset" value="RESET"><br/>
+        <button type="submit">SUBMIT</button><br/>
+
+    </form>
+</body>
+</html>
